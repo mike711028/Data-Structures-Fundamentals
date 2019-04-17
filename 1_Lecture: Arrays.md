@@ -25,8 +25,25 @@ we start with the address of the array
  | (2,1)|(2,2) |(2,3) |(2,4) | (2,5)|(2,6) |
  |(3,1) |(3,2) |(3,3) | * (3.4)|(3,5) |(3,6) |
  
- How do you find the address of the element (3,4) ?
+How do you find the address of the element (3,4) ?
  
-    1. row 1 and 2 which we don't use
- 
- ```(3 - 1) * 6 ```
+1. calculate empty elements in row 1 and 2
+```
+(3 - 1) * 6
+```
+2. calculate the rest of empty elements before (3,4) // from left to right
+```
+(4 - 1)
+```
+3. sum them up
+```
+(3 - 1) * 6 + (4 - 1) = 15
+```
+4. multiply 15 by element size
+```
+elem_size * ((3 - 1) * 6 + (4 - 1))
+```
+5. finally, after adding array address, we get the address of our element (3,4)
+```
+array_addr + elem_size * ((3 - 1) * 6 + (4 - 1))
+```
