@@ -48,7 +48,7 @@ elem_size * ((3 - 1) * 6 + (4 - 1))
 array_addr + elem_size * ((3 - 1) * 6 + (4 - 1))
 ```
 
-## Row-major and Colum-major
+## Row-major and Column-major
 
    + Multi-dimensions array
  
@@ -57,6 +57,32 @@ array_addr + elem_size * ((3 - 1) * 6 + (4 - 1))
 | (2,1)|(2,2) |(2,3) |(2,4) | (2,5)|(2,6) |
 |(3,1) |(3,2) |(3,3) | * (3.4)|(3,5) |(3,6) |
 
-   + Row-major indexing and Column-major indexing 
+   + Row-major indexing or Row-major ordering
+   
+the column index is changing rapidly
+
+|(1,1) |
+|:---:|
+|(1,2) |
+|(1,3) |
+|(1,4) |
+|(1,5) |
+|(1,6)|
+| (2,1)|
+|..... |
+
+   + Column-major indexing or Column-major ordering
+
+the row index is changing rapidly
  
- 
+|(1,1) |
+|:---:|
+|(2,1) |
+|(3,1) |
+|(1,2) |
+|(2,2) |
+|(3,2)|
+|(1,3)|
+|..... |
+
+## Times for Common Operations
