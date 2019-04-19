@@ -86,3 +86,16 @@ the row index is changing rapidly
 |..... |
 
 ## Times for Common Operations
+
+| |Add|Remove|
+|:---:|:---:|:---:|
+|Beginning| |O(n) |
+|End|O(1) |O(1) |
+|Middle| | |
+
+   + Add or remove in the end
+
+just need one move to add or remove a number in the end
+
+| 23 |6 |2|43| **4**| | |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
