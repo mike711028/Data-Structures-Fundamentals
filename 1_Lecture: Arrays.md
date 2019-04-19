@@ -87,20 +87,23 @@ the row index is changing rapidly
 
 ## Times for Common Operations
 
+   + array is great if you add or remove **in the end** 
+   + but it's expensive if you do so in the middle and at the beginning
+
 | |Add|Remove|
 |:---:|:---:|:---:|
-|Beginning| |O(n) |
+|Beginning|O(n) |O(n) |
 |End|O(1) |O(1) |
-|Middle| | |
+|Middle|O(n) |O(n)|
 
-   + Add or remove in the end
+### Add or remove in the end
 
 just need one move to add or remove a number in the end
 
 | 23 |6 |2|43| *4* | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
-   + Add or remove in the beginning
+### Add or remove at the beginning
    
    1. remove the first value
 
@@ -110,8 +113,18 @@ just need one move to add or remove a number in the end
 |  |6 |2|43|  | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
-   2. shift all values left by one move, as well as inserting a number in the beginning
+   2. shift all values left by one move, as well as inserting a number at the beginning
    
 | 6 |2 |43||  | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
    
+### Add or remove in the middle
+   1. remove a value in the middke
+   
+| 23 | |2|43| 4 | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+
+   2. shift other numbers left to fill the array
+   
+| 23 | 2|43|4|  | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
