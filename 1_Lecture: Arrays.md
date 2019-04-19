@@ -129,7 +129,7 @@ just need one move to add or remove a number in the end
 | 23 | 2|43|4|  | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
-## summary 
+## Summary 
 
    + Array: contiguous area of memory consisting of equal-size elements indexed by contiguous integers
    + Constant-time access to any element
