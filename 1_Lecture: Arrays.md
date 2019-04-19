@@ -97,5 +97,21 @@ the row index is changing rapidly
 
 just need one move to add or remove a number in the end
 
-| 23 |6 |2|43| **4**| | |
+| 23 |6 |2|43| *4* | | |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+
+   + Add or remove in the beginning
+   
+   1. remove the first value
+
+| *23* |6 |2|43|  | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+
+|  |6 |2|43|  | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+
+   2. shift all values left by one move, as well as inserting a number in the beginning
+   
+| 6 |2 |43||  | | |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+   
