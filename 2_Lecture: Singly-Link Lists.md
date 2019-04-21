@@ -1,14 +1,14 @@
 # Singly-Linked Lists
 ## Singly-Linked List
 
-![](linkedlist1.png)
+![](pics/linkedlist1.png)
 ## Node contains:
    + head pointer
    + key (the values are assigned inside)
    + next pointer
 
 ## List API
-|             |             |
+| List API|                |
 |:---:|:---:|
 |PushFront(key)|add to front|
 |key TopFront()|return front item|
@@ -21,3 +21,5 @@
 |Boolean Empty()|empty list?|
 |AddBefore(Node,key)|add key before node|
 |AddAfter(Node,key)|add key after node|
+
+![](pics/pushfront.gif)
