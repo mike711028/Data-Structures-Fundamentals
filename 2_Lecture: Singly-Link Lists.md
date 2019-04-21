@@ -36,3 +36,7 @@
 
    1. the head pointer pointer to the new front node
    2. remove the old front node
+   
+### PushBack(no tail)
+
+![](pics/PushFront(no tail).png)
