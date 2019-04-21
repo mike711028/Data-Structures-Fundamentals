@@ -8,8 +8,9 @@
    + next pointer
 
 ## List API
-|PushFront(key)|add to front|
+|             |             |
 |:---:|:---:|
+|PushFront(key)|add to front|
 |key TopFront()|return front item|
 |PopFront()|remove front item|
 |PushBack(key)|add to back, also known as Append|
