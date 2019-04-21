@@ -46,3 +46,12 @@
    3. create a new node
    4. the last node points to the new node
    5. insert null into the address of the new node
+   
+### PopBack(no tail)
+
+![](pics/popback.png)
+
+   1. we don't have a tail pointer
+   2. in order to find the last node, we start pointing **from the head pointer** to the last one
+   3. remove the last node
+   4. insert null into the address of the new last node
