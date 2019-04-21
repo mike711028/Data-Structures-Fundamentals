@@ -40,4 +40,4 @@
 ### PushBack(no tail)
 
 
-![](pics/PushFront(no tail).png)
+![](pics/PushFront(notail).png)
