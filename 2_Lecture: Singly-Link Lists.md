@@ -65,3 +65,13 @@
    3. the pointer of the last node points to the new node
    4. the tail pointer points to the new last node 
    5. insert null into the address of the new last node
+   
+### PopBack(with tail)
+
+![](pics/PopBack(withtail).gif)
+
+   1. in order to remove the last node, we have to find out the new last node
+   2. but we dont have the pointer from the last node to the second-last node
+   3. so we start pointing from the headt and walk down to the second-last one
+   4. the trail poiter points the second-last node and remove the old last node
+   5. insert null into the new last node
