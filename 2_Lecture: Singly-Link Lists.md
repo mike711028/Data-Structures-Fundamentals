@@ -26,6 +26,6 @@
 
 ![](pics/pushfront.gif)
 
-   + create a new node contained a key 
-   + the pointer of the new node points to the next node
-   + the head pointer points to the new node
+   1. create a new node contained a key 
+   2. the pointer of the new node points to the next node
+   3. the head pointer points to the new node
