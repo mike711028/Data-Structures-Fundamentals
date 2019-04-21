@@ -29,3 +29,10 @@
    1. create a new node contained a key 
    2. the pointer of the new node points to the next node
    3. the head pointer points to the new node
+   
+### PopFront
+
+![](pics/popfront.gif)
+
+   1. the head pointer pointer to the new front node
+   2. remove the old front node
