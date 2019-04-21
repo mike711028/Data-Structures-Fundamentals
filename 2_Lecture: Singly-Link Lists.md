@@ -55,3 +55,13 @@
    2. in order to find the last node, we start pointing **from the head pointer** to the last one
    3. remove the last node
    4. insert null into the address of the new last node
+   
+### PushBack(with tail)
+
+![](pics/pushback.gif)
+
+   1. find the tail pointer 
+   2. create a new node 
+   3. the pointer of the last node points to the new node
+   4. the tail pointer points to the new last node 
+   5. insert null into the address of the new last node
