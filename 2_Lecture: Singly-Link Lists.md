@@ -24,7 +24,7 @@
 
 ### PushFront
 
-![](pics/pushfront.gif)
+![](pics/PushFront.gif)
 
    1. create a new node contained a key 
    2. the pointer of the new node points to the next node
