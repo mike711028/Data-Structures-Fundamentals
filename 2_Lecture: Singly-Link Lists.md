@@ -78,6 +78,12 @@
    3. so we start pointing from the head and walk down to the second-last one
    4. update the trail poiter to point the second-last node and remove the old last node
    5. insert null into the new last node
+   
+### AddAfter
+
+![](pics/AddAfter.gif)
+
+   1. a
 
 ### Notice
    + if head pointer is "Null", it represents it is an empty list
