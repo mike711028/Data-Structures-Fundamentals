@@ -71,8 +71,8 @@
 ![](pics/PopBack(withtail).gif)
 
    1. in order to remove the last node, we have to find out the new last node
-   2. but we dont have the pointer from the last node to the second-last node
-   3. so we start pointing from the headt and walk down to the second-last one
+   2. but we **dont have the pointer from the last node to the second-last node**
+   3. so we start pointing from the head and walk down to the second-last one
    4. update the trail poiter to point the second-last node and remove the old last node
    5. insert null into the new last node
 
