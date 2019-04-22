@@ -29,6 +29,9 @@
    1. create a new node contained a key 
    2. the pointer of the new node points to the next node
    3. the head pointer points to the new node
+   4. 為什麼head pointer最後動, 一個array就是靠head pointer找到起始點
+   5. 若head pointer先指向new node,等於找不到原本array
+   6. allocate整個array,head pointer就是唯一大門,要找尋所有內容物都要從頭開始
    
 ### PopFront
 
