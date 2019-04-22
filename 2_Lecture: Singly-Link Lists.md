@@ -83,8 +83,28 @@
 
 ![](pics/AddAfter.gif)
 
-   1. a
+   1. allocate a new node
+   2. set its nexter pointer to whatever node we're adding after to its next
+   3. update the node pointer which we're adding after so that it points down our new node
 
 ### Notice
    + if head pointer is "Null", it represents it is an empty list
    + if head pointer is equal to tail pointer, it represent there is only an one element in list
+   + we don't have a link(pointer) back to the previous element
+   
+### Time Complexity
+
+|Singly-linked list|no tail|with tail|
+|:---:|:---:|:---:|
+|PushFront(key)|O(1)||
+|TopFront()|O(1)||
+|PopFront()|O(1)||
+|PushBack(key)|O(n)|O(1)|
+|TopBack()|O(n)|O(1)|
+|PopBack()|O(n)||
+|Find(key)|O(n)||
+|Erase(key)|O(n)||
+|Empty()|O(1)||
+|AddBefore(node,key)|O(n)||
+|AddAfter(node,key)|O(1)||
+
