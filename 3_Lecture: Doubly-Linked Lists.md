@@ -1,0 +1,11 @@
+# Doubly-Linked Lists
+
+![](pics/doublylinkedlist.png)
+
+## Popback(with tail)
+
+![](pics/doubly_popback.gif)
+
+## Pushback(with tail)
+
+![](
