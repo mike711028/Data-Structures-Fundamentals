@@ -8,4 +8,4 @@
 
 ## Pushback(with tail)
 
-![](
+![](pics/doubly_pushback.gif)
