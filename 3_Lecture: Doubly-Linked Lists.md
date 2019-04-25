@@ -2,14 +2,18 @@
 
 ![](pics/doublylinkedlist.png)
 
-## Popback(with tail)
+## PopBack(with tail)
 
 ![](pics/doubly_popback.gif)
 
-## Pushback(with tail)
+## PushBack(with tail)
 
 ![](pics/doubly_pushback.gif)
 
-## Addafter(with tail)
+## AddAfter(with tail)
 
 ![](pics/doubly_addafter.gif)
+
+## AddBefore(with tail)
+
+![](pics/doubly_addbefore.gif)
