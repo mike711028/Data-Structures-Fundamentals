@@ -9,3 +9,7 @@
 ## Pushback(with tail)
 
 ![](pics/doubly_pushback.gif)
+
+## Addafter(with tail)
+
+![](pics/doubly_addafter.gif)
