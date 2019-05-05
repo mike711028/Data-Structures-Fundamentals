@@ -8,6 +8,16 @@ Queues: **Abtract data type(ADT)** with the following operations:
    + Boolean Empty(): are there any elements?
    + FIFO ( First in, first out)
    
+## Queue implement in linked list
+
+![](pics/queueImplementLinked.png)
+
+![](pics/queueImplementLinked2.png)
+
+## Queue implement in array
+
+![](pics/queueImplementarray.png)
+   
 
 ## Summary
    + Queues can be implemented with either a linked list(with tail pointer) or an array
