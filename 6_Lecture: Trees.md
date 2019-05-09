@@ -55,3 +55,13 @@ A **tree** is:
    + Fred is level 1
    + Sally, Jim, Kate are level 2
    + Sam, Huge are level 3
+   
+### Height
+![](pics/HeightOfTree.png)
+
+   + Sam, Huge, Sally, Jim are height 1
+   + Kate is height 2
+   + Fred is height 3
+   
+### Forest
+![](pics/FroestOfTree.png)
