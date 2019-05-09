@@ -65,3 +65,16 @@ A **tree** is:
    
 ### Forest
 ![](pics/FroestOfTree.png)
+
+### Node contains:
+
+   + key
+   + children: list of children node
+   + (optional) parent
+   
+### For binary tree: node contains:
+
+   + key
+   + left
+   + right
+   + (optional) parent
