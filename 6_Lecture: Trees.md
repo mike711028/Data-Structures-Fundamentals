@@ -11,6 +11,8 @@ A **tree** is:
    + Les is a node and has a key, Les
    + Les has two child trees, Cathy and Sam
    + Les is greater than Cathy and less than Sam in the first letter
+   + the key in parent node is greater than or equal to the key in left children node
+   + but less than the key in right children node
    
    
 ![](pics/simpletree.png)
@@ -78,3 +80,5 @@ A **tree** is:
    + left
    + right
    + (optional) parent
+   + parent node is greater than or equal to left children node
+   + but less than right children node
