@@ -32,3 +32,26 @@ A **tree** is:
 ![](pics/DescendentOfTree.png)
 
    + descendent of Fred are Kate, Sally, Jim, Sam, Huge
+
+### Sibling
+![](pics/SiblingOfTree.png)
+
+   + Kate, Sally, Jim are sibling
+   + Sam, Huge are sibling
+   
+### Leaf
+![](pics/LeafOfTree.png)
+
+   + Sally, Jim, Sam, Huge are leaf
+   
+### Interior node(non-leaf)
+![](pics/InteriornodeOfTree.png)
+
+   + Fred, Kate are interior node
+   
+### Level
+![](pics/LevelOfTree.png)
+
+   + Fred is level 1
+   + Sally, Jim, Kate are level 2
+   + Sam, Huge are level 3
