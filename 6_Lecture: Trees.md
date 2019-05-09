@@ -14,12 +14,21 @@ A **tree** is:
    
    
 ![](pics/simpletree.png)
-
-## Root
+## Terminology
+### Root
 ![](pics/rootoftree.png)
 
-## Child
+### Child
 ![](pics/ChildOfTree.png)
 
    + Kate is a parent of Sam
    + Sam is a child of Kate
+### Ancester
+![](pics/AncesterOfTree.png)
+   
+   + ancester of Sam is Kate and Fred
+   
+### Descendent
+![](pics/DescendentOfTree.png)
+
+   + descendent of Fred are Kate, Sally, Jim, Sam, Huge
